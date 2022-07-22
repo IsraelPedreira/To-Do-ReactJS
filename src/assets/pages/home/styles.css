@@ -1,0 +1,71 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1.7em ;
+    color: #fff;
+    
+
+   
+    
+    
+  
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #8DE969;
+    border-radius: 10px;
+    padding: 1.3em;
+}
+
+.head input{
+    width: 60vh;
+    height: 5vh;
+    background: #E2DADB;
+    margin: 1.2em;
+    border-radius: 7px;
+    padding: 0.3em;
+    border: none;
+
+}
+
+.head input:focus{
+    outline: none;
+}
+
+.head button{
+    
+    width: 50vh;
+    height: 6vh;
+    background: #37b92b;
+    border: none;
+    color:#fff;
+    border-radius: 20px;
+    transition: filter 400ms;
+    cursor: pointer;
+    
+}
+
+.head button:hover{
+    filter: brightness(0.8) ;
+}
+
+.taskCard{
+    display:flex;
+    align-items: baseline;
+    
+}
+
+.taskCard button{
+    margin: 2vh;
+    background: #E2DADB ;
+    border:0;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+}

@@ -1,0 +1,25 @@
+.container{
+    align-items: center;
+    
+    
+}
+.container strong{
+    background-color: #E2DADB;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    height: 7vh;
+    padding: 0.8em;
+    color: #1A1D1A;
+    
+}
+
+
+
+.content{
+    display: flex;
+    width: 80vh;
+    justify-content: space-between;
+    background-color: #E2DADB;
+    border-radius: 10px;
+}
