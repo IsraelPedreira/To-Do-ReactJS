@@ -12,18 +12,17 @@ export default function Home() {
   
 
   function handleGetInput(){
-    
-  
+
     if (digits.length <=0){
       alert("Por favor, digite algo");
-    
       return;
     }
+
     setTasks((prev)=>[...prev ,digits])
-   
   }
   
   function deleteTask(index){
+
     let tempList = [...tasks]
     tempList.splice(index,1)
 
@@ -33,10 +32,11 @@ export default function Home() {
   
 
   function handleEditTask(e){
+    
     const indice = changeRender.indice
     tasks[indice] = edit
     setChangeRender({boolean:false})
-    e.target.value = ' '
+    
   
   }
 
